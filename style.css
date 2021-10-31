@@ -115,7 +115,7 @@ html, body {
     background-repeat: no-repeat;
     background-size: 122%;
     background-position: -228%;
-    background-color: black;
+    background-color: #020719;
     position: relative; }
     .header-section .col-1 .wrapper {
       display: flex;
@@ -166,7 +166,8 @@ html, body {
     .header-section .col-1 {
       flex-basis: unset;
       height: 50vh;
-      background-size: 27%; }
+      background-size: 58%;
+      background-position: 180%; }
       .header-section .col-1 .wrapper {
         font-size: 17px;
         margin: 0;
@@ -180,6 +181,11 @@ html, body {
       height: 35vh;
       background-image: linear-gradient(rgba(14, 15, 17, 0.83), rgba(4, 9, 30, 0.83)), url(img/carBanner.jpg);
       background-position: center; } }
+
+@media (max-width: 400px) {
+  .header-section .col-1 {
+    background-size: 81%;
+    background-position: 322%; } }
 
 .section-3 {
   width: 100%;
